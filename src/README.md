@@ -14,4 +14,4 @@ Links GitHub
 Alejandro Vozella ,https://github.com/AlejandroVozella/FinalMCGABK.git
 
 Link Heroku:
-https://final-mcga-alejandrovozella.herokuapp.com/
+https://app-final-bk.herokuapp.com/
