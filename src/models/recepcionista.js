@@ -5,7 +5,7 @@ const recepcionistaEsquema = new mongoose.Schema({
     type: String,
     require: [true, "el usuario es requerido"],
   },
-  password: {
+  contraseña: {
     type: String,
     require: [true, "la  es requerida"],
   },
