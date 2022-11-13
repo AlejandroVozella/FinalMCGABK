@@ -83,7 +83,9 @@ const updateRecepcionistaById = async (req, res) => {
   console.log(req.params.id);
   try {
     const response = await recepcionistaEsquema.findByIdAndUpdate(
-      req.params.id,
+      {
+        _id: req.params.recepcionistaId,
+      },
       req.body,
       { new: true }
     );
